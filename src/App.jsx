@@ -4,8 +4,8 @@ import Blogs from "./Pages/blogs";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
-// import Practice from "./Pages/Practice";
-import Card from "./Components/Card";
+import Practice from "./Pages/Practice";
+import Card from "./Components/Card"
 
 const App = () => {
   return (
