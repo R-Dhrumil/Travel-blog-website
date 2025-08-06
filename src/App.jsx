@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Practice from "./Pages/Practice";
-import Card from "./Components/Card"
+// import Card from "./Components/Card"
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/practice" element={<Card />} />
+        <Route path="/practice" element={<Practice />} />
       </Routes>
     </div>
   );
